@@ -1,0 +1,8 @@
+﻿  Encryptor.c
+C:\Users\user\Documents\NzT\src\Shared\crt.c(485,31): warning C4244: '=': conversion from 'DWORD' to 'USHORT', possible loss of data
+C:\Users\user\Documents\NzT\src\Shared\crt.c(486,36): warning C4244: '=': conversion from 'DWORD' to 'USHORT', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 29 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Encryptor.vcxproj -> C:\Users\user\Documents\NzT\src\Release\Encryptor.exe

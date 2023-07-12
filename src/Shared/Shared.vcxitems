@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{af96a04d-24ae-4a4d-bf5e-396969dd48d5}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)advapi32_functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)advapi32_hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)api.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crt.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)file.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)guid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)hashes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)hook.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)injection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)kernel32_functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)kernel32_hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ntdll.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ntdll_functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ntdll_hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)registry.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)shell32_functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)shell32_hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)strings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)user32_functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)user32_hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)wininet_functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)wininet_hash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)api.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)config.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)crt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)crypto.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)debug.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)file.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)guid.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)hook.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)injection.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)registry.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils.c" />
+  </ItemGroup>
+</Project>

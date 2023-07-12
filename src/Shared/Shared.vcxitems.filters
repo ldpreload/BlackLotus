@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cc068487-d631-4e61-9f68-2fa2c1f11322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{f5f6420f-8b4a-4990-be0c-1d342067c5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{09d0bf83-00c3-4e18-9b9f-67fc5fb13943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{25223bc2-b036-4a6d-a7b8-195dfdb14eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{ca2adc11-29d3-4401-b227-5231d7e7d185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{92e8370c-86f4-4b68-b952-e727b6a0dcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{52f926e4-cffc-4a0d-bca3-b9bf07d57ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{eee9a8a8-a051-4952-9042-c31f94a4bceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{5b446af7-5f09-4a6e-a5f8-d605212cf980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\ntdll">
+      <UniqueIdentifier>{dd700a08-7a46-4cc0-b3bf-fc0afecb0c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\user32">
+      <UniqueIdentifier>{90a6a14c-60d3-4b1c-a00e-548eed34e683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\wininet">
+      <UniqueIdentifier>{7fd18cc1-3d1d-4f0e-8c84-8e42f370e27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\kernel32">
+      <UniqueIdentifier>{fd0ea3c8-6283-4370-9b9a-e281a72ed3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\advapi32">
+      <UniqueIdentifier>{56903e19-ce18-43f9-914f-effad4538614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\shell32">
+      <UniqueIdentifier>{54282a96-01f7-40c5-a819-7bd9ebb9ffcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{2db74972-0780-4da0-8933-eb857eac7824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{c69bfb8b-417e-402c-8f3e-a9f0924a898c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Crypto">
+      <UniqueIdentifier>{7e9fd5c7-48da-4ce1-a2a3-8944c0340585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crypto">
+      <UniqueIdentifier>{fcdfea01-acdf-421f-82e6-e8fc6ad10476}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)crt.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)strings.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ntdll.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)api.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ntdll_hash.h">
+      <Filter>Header Files\API\ntdll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ntdll_functions.h">
+      <Filter>Header Files\API\ntdll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)user32_functions.h">
+      <Filter>Header Files\API\user32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)user32_hash.h">
+      <Filter>Header Files\API\user32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wininet_functions.h">
+      <Filter>Header Files\API\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wininet_hash.h">
+      <Filter>Header Files\API\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)kernel32_functions.h">
+      <Filter>Header Files\API\kernel32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)advapi32_functions.h">
+      <Filter>Header Files\API\advapi32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)shell32_functions.h">
+      <Filter>Header Files\API\shell32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)shell32_hash.h">
+      <Filter>Header Files\API\shell32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)advapi32_hash.h">
+      <Filter>Header Files\API\advapi32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)kernel32_hash.h">
+      <Filter>Header Files\API\kernel32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)injection.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)guid.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)hashes.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)file.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)registry.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)hook.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)crt.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)guid.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)api.c">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)debug.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)injection.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)config.c">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)registry.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)file.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)hook.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)crypto.c">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
