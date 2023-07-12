@@ -29,7 +29,7 @@ After that compliation should be easy, just keep the included settings in the Vi
 ## Default Panel Credentials:
 
 - **user**: yukari
-- **password**: admin
+- **password**: default
 
 ## References
 
