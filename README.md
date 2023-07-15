@@ -8,7 +8,7 @@ BlackLotus is an innovative UEFI Bootkit designed specifically for Windows. It i
 - Utilizes on Windows API, NTAPI, EFIAPI (NO 3rd party libraries used),
 - NO CRT (C Runtime Library).
 - Compiled binary including the user-mode loader is only 80kb in size
-- Uses secure HTTPS C2 communication by using RSA and AES encryption
+- Uses secure HTTPS C2 communication by using RSA and AES encryption 
 - Dynamic configuration
 
 
