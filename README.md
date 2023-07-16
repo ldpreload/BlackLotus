@@ -26,7 +26,7 @@ BlackLotus is an innovative UEFI Bootkit designed specifically for Windows. It i
 
 
 Setup by modifying the config.c file by including your C2s hostname or IP address.
-After that compliation should be easy, just keep the included settings in the Visual Studio solution.
+After that compilation should be easy, just keep the included settings in the Visual Studio solution.
 
 ## Default Panel Credentials:
 
