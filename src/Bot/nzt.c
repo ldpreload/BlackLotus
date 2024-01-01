@@ -63,7 +63,7 @@ static WINERROR BotInitialize()
 		return ERROR_UNSUCCESSFULL;
 	}
 
-	// Initinalize global variables
+	// Initialize global variables
 	if (!GlobalsInitialize(API(GetModuleHandleW(NULL)), G_SYSTEM_VERSION | G_CURRENT_PROCESS_ID | G_CURRENT_PROCESS_PATH))
 	{
 		DebugPrint("NzT: Failed to initialize globals!");
