@@ -24,9 +24,13 @@ BlackLotus is an innovative UEFI Bootkit designed specifically for Windows. It i
 - Anti-Hooking engine (for disabling, bypassing, and controlling EDRs)
 - Modular plugin system
 
+## Installation
 
-Setup by modifying the config.c file by including your C2s hostname or IP address.
-After that compliation should be easy, just keep the included settings in the Visual Studio solution.
+Download and install EDK2, from https://github.com/tianocore/edk2 <br>
+Instructions can be obtained <a href="https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II">here</a>
+
+After installing EDK2, you are ready to compile the EFI drivers.
+Edit the config.c file to include your C2s hostname or IP address. After that, compliation should be easy, just keep the included settings in the Visual Studio solution.
 
 ## Default Panel Credentials:
 
