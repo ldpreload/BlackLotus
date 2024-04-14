@@ -10,7 +10,7 @@
 *			[X]	-	Hooking engine
 *			[X]  	-	Anti-Hooking engine
 *			[X]	-	Modular plugin system
-*			[X]	-	Store and encrypt strings in seperate PE section
+*			[X]	-	Store and encrypt strings in separate PE section
 *			[X]	-	UEFI Kit
 *
 *		- PLUGINS
